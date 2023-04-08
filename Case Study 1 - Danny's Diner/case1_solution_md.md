@@ -1,6 +1,6 @@
 ## Case Study #1 - Danny's Diner 🍜
 
-This is solution for case study1. (written by Yumin Kim)
+This is solution for case study1. (Written by Yumin Kim)
 <br>
 
 #### 1. What is the total amount each customer spent at the restaurant?
