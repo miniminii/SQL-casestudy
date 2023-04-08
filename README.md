@@ -7,7 +7,7 @@ The following case studies have been curated by Danny Ma and are available on ht
 
 Case Study       |  Description | Status  
 ---------------- |  ----------- | -------  
-[#1: Danny's Diner](https://github.com/miniminii/SQL-casestudy/tree/main/Case%20Study%201%20-%20Danny's%20Diner) | Danny’s Diner is in the first few months of operation but needs assistance using their data to help them keep the business afloat.  | -
+[#1: Danny's Diner](https://github.com/miniminii/SQL-casestudy/tree/main/Case%20Study%201%20-%20Danny's%20Diner) | Danny’s Diner is in the first few months of operation but needs assistance using their data to help them keep the business afloat.  | Completed
 [#2: Pizza Runner](https://github.com/miniminii/SQL-casestudy/tree/main/Case%20Study%202%20-%20Pizza%20Runner)  | Pizza Runner requires further assistance cleaning data and applying basic calculations to better direct runners and optimise business operations. | -
 [#3: Foodie-Fi](https://github.com/miniminii/SQL-casestudy/tree/main/Case%20Study%203%20-%20Foodie-Fi)     | Foodie-Fi, a subscription streaming service for food-related content, wants to utilize data to better understand customer retention, churn, and growth. | -
 [#4: Data Bank](https://github.com/miniminii/SQL-casestudy/tree/main/Case%20Study%204%20-%20Data%20Bank)     | Digital bank and data storage platform Data Bank needs help analyzing their data to calculate metrics, growth, and forecast smarter for future developments. | -
