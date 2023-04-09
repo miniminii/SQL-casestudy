@@ -1,3 +1,9 @@
+----------------------------------
+-- CASE STUDY #2: Pizza Runner --
+----------------------------------
+
+-- Tool used: MySQL Server
+
 CREATE SCHEMA pizza_runner;
 USE pizza_runner;
 
