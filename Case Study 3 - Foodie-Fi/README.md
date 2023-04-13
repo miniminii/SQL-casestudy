@@ -11,7 +11,7 @@ Danny created Foodie-Fi with a data driven mindset and wanted to ensure all futu
 ![alt text](https://github.com/iweld/8-Week-SQL-Challenge/blob/main/Case%20Study%203%20-%20Foodie-Fi/ERD.JPG)
 
 ### Datasets used
-**Table 1:** `plans table`  
+**Table 1:** `plans`  
 Customers can choose which plans to join Foodie-Fi when they first sign up.
 
 |plan_id|	plan_name	|price|
@@ -28,7 +28,7 @@ There are 5 customer plans.
 - Trial plan - Customers can sign up to an initial 7 day free trial will automatically continue with the pro monthly subscription plan unless they cancel, downgrade to basic or upgrade to an annual pro plan at any point during the trial.
 - Churn plan - When customers cancel their Foodie-Fi service - they will have a churn plan record with a null price but their plan will continue until the end of the billing period.
 
-**Table 2:** `subscriptions table` 
+**Table 2:** `subscriptions` 
 - Customer subscriptions show the *exact date where their specific plan_id starts*.
 - If customers *downgrade* from a pro plan or *cancel their subscription* - the higher plan will remain in place until the period is over - the start_date in the subscriptions table will reflect the date that the actual plan changes.
 - When customers *upgrade* their account from a basic plan to a pro or annual pro plan - the higher plan will take effect straightaway.
