@@ -17,7 +17,30 @@ This is solution for case study2. (written by Yumin Kim)
     
 - Results : 
     
-    
     | total_revenue |
     | --- | 
     | 138 |
+
+#### 2. What if there was an additional $1 charge for any pizza extras? Add cheese is $1 extra
+- Query : 
+
+  ```sql 
+  WITH table1 as (
+       SELECT *, length(extras) - length(replace(extras, ",", ""))+1 AS topping_count
+       FROM pizza_runner.customer_orders_temp), 
+
+      table2 as (
+      SELECT sum(case when pizza_id = 1 then 12
+                else 10
+                end) as pizza_revenue, 
+             sum(topping_count) as topping_revenue
+      FROM table1 left join pizza_runner.runner_orders_temp using(order_id)
+      WHERE cancellation is NULL )
+
+  SELECT concat('$', pizza_revenue + topping_revenue) as total_revenue
+  FROM table2
+  ```
+- Results : 
+    | total_revenue |
+    | --- | 
+    | $142 |
